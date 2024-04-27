@@ -4,13 +4,13 @@
       "id": 1,
       "name": "ING Bank Śląski",
       "end_promotion": "2024-06-27",
-      "no_account_since": "2022-12-31",
+      "no_account_since": "2022-12-31"
     },
     {
       "id": 2,
       "name": "BNP Paribas Bank Polska S.A.",
       "end_promotion": "2024-09-30",
-      "no_account_since": "2022-12-31",
+      "no_account_since": "2022-12-31"
     }
   ],
   "promotions": [
@@ -47,7 +47,6 @@
       "id": 1,
       "name": "Jan Kowalski",
       "email": "jan.kowalski@gmail.com"
-      
     },
     {
       "id": 2,
@@ -56,23 +55,23 @@
     }
   ],
   "bank-accounts": [
-      {
-        "user_id": 1,
-        "bank_id": 1,
-        "is_open": false,
-        "closure_date": "2020-12-20"
-      },
-      {
-        "user_id": 2,
-        "bank_id": 2,
-        "is_open": true,
-        "closure_date": null
-      },
-      {
-        "user_id": 2,
-        "bank_id": 1,
-        "is_open": false,
-        "closure_date": "2021-12-20"
-      }
-    ]
+    {
+      "user_id": 1,
+      "bank_id": 1,
+      "is_open": false,
+      "closure_date": "2020-12-20"
+    },
+    {
+      "user_id": 2,
+      "bank_id": 2,
+      "is_open": true,
+      "closure_date": null
+    },
+    {
+      "user_id": 2,
+      "bank_id": 1,
+      "is_open": false,
+      "closure_date": "2021-12-20"
+    }
+  ]
 }
