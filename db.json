@@ -3,6 +3,34 @@
     { "id": 1, "name": "ING Bank Śląski", "end_promotion": "2024-06-27", "no_account_since": "2022-12-31" },
     { "id": 2, "name": "BNP Paribas Bank Polska S.A.", "end_promotion": "2024-09-30", "no_account_since": "2022-12-31"}
   ],
+  "promotions": [
+    { "id": 101, 
+      "bank_id": 1, 
+      "description": "Complete 5 tasks and earn $100 bonus.",
+      "earning_amount": 100,
+      "conditions": "Tasks include account opening, making a deposit, etc.",
+      "status": true,
+      "opening_account_info_available": true
+    },
+    {
+      "id": 102,
+      "bank_id": 1,
+      "description": "Refer a friend and earn $50 for each successful referral.",
+      "earning_amount": 50,
+      "conditions": "Friend must open an account and make a deposit.",
+      "status": false,
+      "opening_account_info_available": true
+    },
+    {
+      "id": 201,
+      "bank_id": 2,
+      "description": "Sign up for a new account and get $50 welcome bonus.",
+      "earning_amount": 50,
+      "conditions": "Must deposit at least $100 within 30 days of account opening.",
+      "status": false,
+      "opening_account_info_available": true
+    }
+  ],
   "posts": [
     { "id": "1", "title": "a title", "views": 100 },
     { "id": "2", "title": "another title", "views": 200 }
