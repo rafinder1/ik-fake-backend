@@ -31,9 +31,17 @@
       "opening_account_info_available": true
     }
   ],
-  "posts": [
-    { "id": "1", "title": "a title", "views": 100 },
-    { "id": "2", "title": "another title", "views": 200 }
+  "users": [
+    {
+      "id": 1,
+      "name": "Jan Kowalski",
+      "email": "jan.kowalski@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Elon Nowak",
+      "email": "elon.nowak@gmail.com"
+    }
   ],
   "profile": {
     "name": "typicode"
