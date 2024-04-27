@@ -1,14 +1,78 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "banks": [
+    {
+      "id": 1,
+      "name": "ING Bank Śląski",
+      "end_promotion": "2024-06-27",
+      "no_account_since": "2022-12-31",
+    },
+    {
+      "id": 2,
+      "name": "BNP Paribas Bank Polska S.A.",
+      "end_promotion": "2024-09-30",
+      "no_account_since": "2022-12-31",
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "promotions": [
+    {
+      "id": 101,
+      "bank_id": 1,
+      "description": "Complete 5 tasks and earn $100 bonus.",
+      "earning_amount": 100,
+      "conditions": "Tasks include account opening, making a deposit, etc.",
+      "status": true,
+      "opening_account_info_available": true
+    },
+    {
+      "id": 102,
+      "bank_id": 1,
+      "description": "Refer a friend and earn $50 for each successful referral.",
+      "earning_amount": 50,
+      "conditions": "Friend must open an account and make a deposit.",
+      "status": false,
+      "opening_account_info_available": true
+    },
+    {
+      "id": 201,
+      "bank_id": 2,
+      "description": "Sign up for a new account and get $50 welcome bonus.",
+      "earning_amount": 50,
+      "conditions": "Must deposit at least $100 within 30 days of account opening.",
+      "status": false,
+      "opening_account_info_available": true
+    }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "users": [
+    {
+      "id": 1,
+      "name": "Jan Kowalski",
+      "email": "jan.kowalski@gmail.com"
+      
+    },
+    {
+      "id": 2,
+      "name": "Elon Nowak",
+      "email": "elon.nowak@gmail.com"
+    }
+  ],
+  "bank-accounts": [
+      {
+        "user_id": 1,
+        "bank_id": 1,
+        "is_open": false,
+        "closure_date": "2020-12-20"
+      },
+      {
+        "user_id": 2,
+        "bank_id": 2,
+        "is_open": true,
+        "closure_date": null
+      },
+      {
+        "user_id": 2,
+        "bank_id": 1,
+        "is_open": false,
+        "closure_date": "2021-12-20"
+      }
+    ]
 }
