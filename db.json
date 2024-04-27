@@ -43,6 +43,26 @@
       "email": "elon.nowak@gmail.com"
     }
   ],
+  "bank-accounts": [
+    {
+      "user_id": 1,
+      "bank_id": 1,
+      "is_open": false,
+      "closure_date": "2020-12-20"
+    },
+    {
+      "user_id": 2,
+      "bank_id": 2,
+      "is_open": true,
+      "closure_date": null
+    },
+    {
+      "user_id": 2,
+      "bank_id": 1,
+      "is_open": false,
+      "closure_date": "2021-12-20"
+    }
+  ],
   "profile": {
     "name": "typicode"
   }
