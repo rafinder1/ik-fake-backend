@@ -9,5 +9,19 @@
   ],
   "profile": {
     "name": "typicode"
-  }
+  },
+  "banks": [
+    {
+      "id": 1,
+      "name": "ING Bank Śląski",
+      "end_promotion": "2024-06-27",
+      "no_account_since": "2022-12-31"
+    },
+    {
+      "id": 2,
+      "name": "BNP Paribas Bank Polska S.A.",
+      "end_promotion": "2024-09-30",
+      "no_account_since": "2022-12-31"
+    }
+  ]
 }
